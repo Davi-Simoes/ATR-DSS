@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #611616; */
+    /* background-image: url(pedro-menezes-PUtXlF8CU1A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #881414;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+nav .logo{
+    margin-left: 10%;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    animation-name: power;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes power {
+    0%{color: white;}
+    50%{color: rgb(0, 0, 0);}
+    100%{color: #ffffff;
+    }
+}
+nav a{
+    margin-right: 5%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: #000000;
+}
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+.frase {
+    background-image: url(gustavo-ferreira-mGMWpkCdTuU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: #000000 1px solid;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.frase p{
+    color: white;
+    width: 60%;
+    font-size: 40px;
+    /* margin-left: 6%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+/* .lab{
+    font-size: 25px;
+}
+.input{
+    font-size: 15px;
+    width: 50%;
+}
+.login{
+    color: #ffffff;
+    left: 50%;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    background-color: #fff0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    color: #fff;
+    background-color: rgb(12, 12, 12);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+button:hover{
+    color: #000000;
+    background-color: #881414;
+} */
+.global{
+    
+    margin-bottom: 2%;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#pr{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.card1{
+    background-image: url(bernabeu.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 2% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card1 p{
+    margin-top: 40%;
+    font-size: 20px;
+    text-align: center;
+    /* animation-name: name;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+}
+.card1 p:hover{
+    color: #fff;
+}
+/* @keyframes name {
+    0%{color: rgb(0, 0, 0);}
+    50%{color: rgb(255, 0, 0);}
+    100%{color: #000000;
+    }
+} */
+.card2{
+    background-image: url(camnou.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 3% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card2 p{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    /* animation-name: name;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+}
+.card2 p:hover{
+    color: #fff;
+}
+.card3{
+    background-image: url(sansiro.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 2% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card3 p{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    /* animation-name: name;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+}
+.card3 p:hover{
+    color: #fff;
+}
+.card4{
+    background-image: url(maracana.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 2% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card4 p{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    /* animation-name: name;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+
+}
+.card4 p:hover{
+    color: #fff;
+}
+.card5{
+    background-image: url(daluz.jpeg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 2% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card5 p{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    /* animation-name: name;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+}
+.card5 p:hover{
+    color: #fff;
+}
+.card6{
+    background-image: url(bombonera.webp);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin: 5% 2% 5%;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+}
+.card6 p{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.card6 p:hover{
+    color: #fff;
+}
+footer{
+    
+        align-items: center;
+        background-color: #881414;
+        text-align: center;
+        height: 15%;
+        color: white;}
+    .incons{
+        height: 35px;
+    }
+@media (max-width: 920px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    .frase p{
+        color: #000000;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #000000;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 23px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+        background: none;
+        color: #ff0000;
+    }
+    .global{
+        padding: 0px;
+    }
+}
